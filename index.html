@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Include jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!-- Include your JavaScript file -->
+    <script src="js.js"></script>
+</head>
+<body>
+    <div class="optcontainer">
+        <h2 id="signIn">Log In</h2>
+        <h2 id="logIn">Sign Up</h2>
+    </div>
+
+    <div class="flip-card">
+        <div class="flip-card-inner">
+            <div class="flip-card-front">
+                <form class="loginform" action="">
+                    <label for="loginEmail">Email</label>
+                    <br>
+                    <input type="email" name="" id="loginemail" placeholder="John@gmail.com">
+                    <br>
+                    <label for="loginpwd">Password</label>
+                    <br>
+                    <input type="password" name="" id="loginpwd" placeholder="***">
+                    <br>
+                    <br>
+                    <button class="btnlogin" type="submit">Log In</button>
+               <br>
+                </form>  
+            </div>
+            <div class="flip-card-back">
+                <form class="signupform" action="">
+                    <label for="signupname">Name</label>
+                    <br>
+                    <input type="text" name="" id="signupname" placeholder="John">
+                    <br>
+                    <label for="signupphonenumber">PhoneNumber</label>
+                    <br>
+                    <input type="text" name="" id="signupphonenumber" placeholder="03XX-XXXXXXX">
+                    <br>
+                    <label for="signupemail">Email</label>
+                    <br>
+                    <input type="email" name="" id="signupemail" placeholder="John@gmail.com">
+                    <br>
+                    <label for="signuppwd1">Password</label>
+                    <br>
+                    <input type="password" name="" id="signuppwd1" placeholder="***">
+                    <input type="checkbox" id="showpwd1">
+                    <br>
+                    <label for="signuppwd2">Confirm Password</label>
+                    <br>
+                    <input type="password" name="" id="signuppwd2" placeholder="***">
+                    <input type="checkbox" id="showpwd2">
+                    <br>
+                    <label for="CitizenShip">CitizenShip</label>
+                    <br>
+                    <input type="text" name="" id="CitizenShip" placeholder="Pakistan">
+                    <br>
+                    <label for="Age">Age</label>
+                    <br>
+                    <input type="number" name="" id="Age" placeholder="18+">
+                    <br>
+                    <label for="Gender">Gender</label>
+                    <br>
+                    <input type="radio" name="gender" id="mGender" value="male">
+                    <label for="mGender">Male</label>
+                    <input type="radio" name="gender" id="fGender" value="female">
+                    <label for="fGender">Female</label>
+                    <br>
+                    <br>
+                    <button class="btnlogin" id="createacc" type="submit">Create Account</button>
+               <br>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
